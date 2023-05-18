@@ -1,0 +1,10 @@
+.Weather{
+    max-width: 500px;
+        margin: 30px auto;
+}
+.Weather-app{
+    padding: 20px;
+        border: 1px solid #dadde1;
+        border-radius: 5px;
+        background-color: rgb(135, 206, 250);
+}
