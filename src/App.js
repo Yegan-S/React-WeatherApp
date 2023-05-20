@@ -8,7 +8,7 @@ export default function App(){
         <div className="App">
             <div className="container">
            
-           <Weather/>
+           <Weather defaultCity="New York"/>
            <footer>
             This project was built by {" "}
             <a href="https://benevolent-druid-a3543f.netlify.apphttps://benevolent-druid-a3543f.netlify.app/" target="_blank" rel="noreferrer">Yegan Salehi </a>

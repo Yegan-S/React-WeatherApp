@@ -1,10 +1,69 @@
 .Weather{
     max-width: 500px;
-        margin: 30px auto;
+        margin: 20px auto;
+        font-family: Arial, sans-serif;
 }
 .Weather-app{
-    padding: 20px;
+    padding: 16px;
         border: 1px solid #dadde1;
         border-radius: 5px;
         background-color: rgb(135, 206, 250);
+}
+.Weather h1{
+    color: #000;
+        font-size: 22px;
+        font-weight: 100;
+        line-height: 28px;
+        margin-left: 30px;
+        text-transform: capitalize;
+        position: relative;
+        top:20 ;
+}
+.Weather ul{
+    margin: 0;
+        padding: 10px;
+        margin-bottom: 10px;
+}
+.Weather li{
+        list-style: none;
+            margin-left: 10px;
+            padding: 0;
+            color: #000;
+            font-size: 16px;
+            font-weight: 100;
+            line-height: 19px;
+}
+.Weather li:first-letter {
+    text-transform: capitalize;
+}
+.card {
+    margin-top: 10px;
+    background-color: rgb(236 242 249);
+}
+.weather-temperature img {
+    margin-right: 5px;
+    position: relative;
+    top: -7px;
+    right: -25px;
+    height: 64px;
+    width: 64px;
+}
+.weather-temperature strong {
+    color: rgb(33, 33, 33);
+    font-size: 20px;
+    line-height: 1;
+    font-weight: 500;
+    position: relative;
+    top: -2px;
+    right: -25px;
+}
+.weather-temperature .unit {
+    position: relative;
+    font-size: 10px;
+    top: -12px;
+    opacity: 0.5;
+    right: -20px;
+}
+#my-button {
+    background-color: #6c757d; 
 }
