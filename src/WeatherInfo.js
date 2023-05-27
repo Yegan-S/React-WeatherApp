@@ -19,7 +19,6 @@ export default function WeatherInfo(props){
     <img src={props.data.iconUrl}
         alt={props.data.description}
         className="float-left"
-        size={68}
         />
         
             <strong className="temperature">
