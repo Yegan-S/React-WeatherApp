@@ -1,0 +1,14 @@
+.WeatherForecast-day{
+        font-size: 18px;
+            color: rgb(38 51 51);
+}
+.Forecast-icon{
+
+}
+.WeatherForecast-temperature-max {
+    font-weight: 500;
+}
+.WeatherForecast-temperature-min {
+    opacity: 0.7;
+    margin-left: 5px;
+}
