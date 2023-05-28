@@ -29,7 +29,7 @@ return(
                 {forecast.map(function(dailyForecast, index){
                     if ( index < 6){
                     return (
-                        <div key={index}>
+                        <div className=" g-2" key={index}>
  <WeatherForecastDay data={dailyForecast}/>
  </div>
                     );

@@ -1,0 +1,10 @@
+.App footer{
+    text-align: center;
+    font-size:11px ;
+}
+@media(max-width:320px) {
+    .App footer {
+        font-size: 7px;
+        font-weight: bold;
+    }
+}

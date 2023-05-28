@@ -9,6 +9,9 @@
         border-radius: 5px;
         background-color: rgb(135, 206, 250);
 }
+.search-engine {
+    background-color: #6c757d;
+}
 .Weather h1{
     color: #000;
         font-size: 22px;
@@ -64,6 +67,39 @@
     opacity: 0.5;
     right: -20px;
 }
-#my-button {
-    background-color: #6c757d; 
+
+@media(max-width:320px) {
+    .Weather-app .search-engine {
+        padding: 10px;
+        margin-left: 5px;
+        font-size: 9px;
+    }
+    .WeatherInfo .city{
+        font-size: 15px;
+    }
+    .WeatherInfo .weather-temperature img{
+        width: 42px;
+        height: 42px;
+        margin-top: 15px;
+    }
+ .WeatherInfo .temperature{
+            color: rgb(33, 33, 33);
+            font-size: 20px;
+            line-height: 60px;
+            position: relative;
+            top: 2px;
+            left: 22px;        
+ }
+ .WeatherInfo .unit{
+    color: rgb(33, 33, 33);
+    font-size: 10px;
+    position: relative;
+    top: -9px;
+    right:-17px;
+    line-height: 1;
+
+}
+.card{
+  width:100 ;
+}
 }
